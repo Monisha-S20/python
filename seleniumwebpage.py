@@ -15,6 +15,7 @@ from selenium.webdriver.chrome.service import Service
 import time
 
 # Specify the path to chromedriver using the Service class
+# r is a raw string if it is used for avoid the //slash issue
 service = Service(r"C:/Users/monishasundar/Downloads/Chromedriver/chromedriver-win64/chromedriver.exe")
 
 # Initialize WebDriver with the service object
